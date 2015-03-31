@@ -1,0 +1,41 @@
+
+
+#title {font-family:apercu;
+        font-size:25px;
+        margin-left:760px;
+        padding-top:10px;
+        text-decoration:underline;}
+
+
+.risdmuseum{z-index:0;
+      margin-left:560px;
+  	 padding-top: 300px;
+  	 font-family:apercu;}
+
+ .risdmuseum2{z-index:0;
+      margin-left:560px;
+  	 padding-top: 980px;
+  	 font-family:apercu;}
+
+ .absence{z-index:0;
+      margin-left:560px;
+  	 padding-top: 780px;
+  	 font-family:apercu;}
+
+.box{position: absolute;}
+
+
+#image1{width:400px;
+	padding-top: 100px;
+	margin-left: 530px;
+  float :left;
+}
+
+#image2{ padding-top:900px;
+	position: relative;
+	margin-left:530px; }
+
+#image3{width:400px;
+float: left;
+	position: relative;
+	margin-left:530px; }
