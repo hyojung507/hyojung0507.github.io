@@ -1,47 +1,176 @@
-<html>
-
-
 <head>
-  <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css">
-       
-       <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-        
-  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  <script src="script.js"></script>
+	<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css">
+			<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  			<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+ <script>
+ 	 $(function() {
+    $( "p1" ).draggable();
+  });
+
+ 	  $(function() {
+    $( "p2" ).draggable();
+  });
+
+ 	  $(function() {
+    $( "p3" ).draggable();
+  });
+
+ 	  $(function() {
+    $( "p4" ).draggable();
+  });
+ 	 $(function() {
+    $( "p6" ).draggable();
+  });
+
+ 	  $(function() {
+    $( "#lines" ).draggable();
+  });
+ 	  $(function() {
+    $( "#blue" ).draggable();
+  });
+	  $(function() {
+    $( "#name" ).draggable();
+  });
 
 
 
-<body> 
- <p id="title">hyo jung kim </p>
-  <div class="box">
-  <div id="image1"> <img src= "http://static1.squarespace.com/static/54e68d20e4b0ed744406461f/54ffc83ce4b0d0cab6f49da0/54ffc841e4b007be887cc9ca/1426049091231/risdmuseum.jpg?format=1500w"width="600px"> </div>
-    
-   <div id="image2"><img src=" http://static1.squarespace.com/static/54e68d20e4b0ed744406461f/54ffc83ce4b0d0cab6f49da0/54ffc848e4b02d7ffa21b78b/1426049103042/risdmuseum2.jpg?format=1500w" width="600px"></div>
-     
-   <div id="image3"><img src=" http://static1.squarespace.com/static/54e68d20e4b0ed744406461f/54f3fccbe4b0b75ae55dc5a3/54f3fccbe4b0acc27114a01c/1425276109114/absence+hanging.jpg?format=1500w" width="600px">
-     
-    </div>
+ </script>
 
 
-  </div>
-    
-     <div class="risdmuseum">
-      Designed a typographic poster promoting RISD Museum's <br>  exhibits and events in 2015. Through the white dots, <br> spatial atmosphere of the poster is created; by the placement <br>  of behind and over the type, the emphasis of "space" is being made.
-    </div>
-      <div class="risdmuseum2">
-      Second version of RISD Museum's exhibition poster.
-    </div>
-    <div class="absence">
-      A hypothetical lecture poster for four sculptors: <br> Do Ho Suh, Richard Tuttle, Sol LeWitt, and Agnes Martin. <br> All four of their works carry a similar theme of "absence". <br> By the spatial atmosphere created by transparent laser-cut <br> acrylic letters and overall texture, absence was formulated. <br>The missing 'E' in the acrylic letters is created through <br> the negative space formed by the text blocks.
-    </div>
-    </body>
-
-  <style>
-  
-  </style>
- 
+<body>
 
 
+<p> These are <br>three projects <br>done by <a href="http://p5js.org"> p5.js</a></p>
 
-</html>
+
+<p1> You can follow through <br>these instructions for <br>each project! </p1>
+<p2> [1] Click, and freely <br>move your mouse <br>to create a drawing. </p2>
+<p3> [2] Simply click reset  <br>to start over. </p3>
+<p4> [3] Write your name and  <br>see what happens. </p4>
+
+<p5> To see more please visit <a href="http://www.hyojung-kim.com"> my website</a></p5>
+<p6> Everything is <i>draggable!</i></p6>
+
+<style>
+
+	body{background-color:#F0F8FF;}
+
+	#lines:hover{opacity: 0.25;
+				border:#F08080 solid 5px;}
+
+	#lines{width:600px;
+			margin-top:370px;
+			margin-left:200px;
+			position:absolute;}
+
+
+	#blue:hover{opacity: 0.25;
+				border:#F08080 solid 5px;}		
+
+	#blue{width:600px;
+		margin-top:900px;
+		margin-left:200px;
+		position:absolute;}
+
+	#name:hover{opacity: 0.25;
+				border:#F08080 solid 5px;}		
+
+	#name{width:600px;
+		margin-top:1430px;
+		margin-left:200px;}
+
+
+	p {position:fixed;
+		font-family:apercu;
+		margin-left:200px;
+		margin-top: 40px;
+		font-size:65px;
+		color:#F08080;
+		z-index:2;}
+
+
+
+	p1{z-index:1;
+		font-family:apercu;
+		color:#4169E1;
+		border: #4169E1 solid 4px;
+		padding: 14px;
+		background-color: white;
+		margin-left:800px;
+		margin-top: 200px;
+		position:absolute;
+		line-height: 1.35;
+		cursor:move;}
+
+	p2{z-index:1;
+		font-family:apercu;
+		opacity: 0.95;
+		color:#4169E1;
+		border: #4169E1 solid 4px;
+		padding: 14px;
+		background-color: white;
+		margin-left:580px;
+		margin-top: 460px;
+		line-height: 1.35;
+		position:absolute;
+		cursor:move;}
+
+
+	p3{z-index:1;
+		font-family:apercu;
+		color:#4169E1;
+		opacity: 0.95;
+		border: #4169E1 solid 4px;
+		padding: 14px;
+		background-color: white;
+		margin-left:690px;
+		margin-top: 1020px;
+		line-height: 1.35;
+		position:absolute;
+		cursor:move;}
+
+	p4{z-index:1;
+		font-family:apercu;
+		color:#4169E1;
+		opacity: 0.95;
+		border: #4169E1 solid 4px;
+		padding: 14px;
+		background-color: white;
+		margin-left:760px;
+		margin-top: 1550px;
+		line-height: 1.35;
+		position:absolute;
+		cursor:move;}
+
+	p5 {position:absolute;
+		font-family:apercu;
+		margin-left:200px;
+		font-weight:lighter;
+		margin-top: 1980px;
+		font-size:20px;
+		color:#778899;
+		z-index:2;}
+
+	p6{z-index:1;
+		font-family:apercu;
+		color:#4169E1;
+		border: #4169E1 solid 4px;
+		padding: 14px;
+		background-color: white;
+		margin-left:700px;
+		margin-top: 80px;
+		position:absolute;
+		line-height: 1.35;
+		cursor:move;}
+
+
+	a{color:#4169E1;
+		text-decoration: none;
+		font-weight:bold;}
+	</style>
+
+<a href="moving_lines/index.html"><img id="lines" src="1.jpg"></a>
+<a href="bluebubble/index.html"><img id="blue" src="2.jpg"></a>
+<a href="sayhi_moving/index.html"><img id="name" src="3.jpg"></a>
+
+
