@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: maison_neuelight;
+    color:#686868;
+    
+}
+
+
+@font-face {
+    font-family: 'maison_neuebook';
+    src: url('maisonneuebook-webfont.eot');
+    src: url('maisonneuebook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('maisonneuebook-webfont.woff2') format('woff2'),
+         url('maisonneuebook-webfont.woff') format('woff'),
+         url('maisonneuebook-webfont.ttf') format('truetype'),
+         url('maisonneuebook-webfont.svg#maison_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'maison_neuelight';
+    src: url('maisonneue-light-webfont.eot');
+    src: url('maisonneue-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('maisonneue-light-webfont.woff2') format('woff2'),
+         url('maisonneue-light-webfont.woff') format('woff'),
+         url('maisonneue-light-webfont.ttf') format('truetype'),
+         url('maisonneue-light-webfont.svg#maison_neuelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wrapper1{
+    width: 100%;
+    margin: 0;
+    position: relative;
+    float:left;
+    display: flex;
+    
+}
+.workspace{
+    overflow-y: hidden;
+}
+
+.halfbox{
+    width: 50%;
+    background-color: rgba(0,0,0,0.02);
+    float:left;
+    height: auto;
+    
+}
+
+.halfbox img {
+    width: 100%;
+}
+
+.narrowimage {
+    width: 90%;
+    margin: 5%;
+    overflow: hidden;
+}
+.narrowimage img{
+    width: 100%;
+}
+
+.wideimage {
+    width: 80%;
+    margin: 2.5%;
+    overflow: hidden;
+}
+
+
+#firstbox{
+    height: 400px;
+}
+    
+
+.blankbox{
+    height: 1px;
+    opacity: 0;
+}
+.logo{
+    background-color: darkgrey;
+    opacity: 0;
+    width: 70px;
+    height: 70px;
+}
+
+.description{
+    margin: 4% 0 4% 2.5%;
+    /* margin-left: 2.5%; */
+    padding-right: 30%;
+    line-height: 1.9em;
+    font-size: 14px;
+    letter-spacing: .3px;
+}
+
+.name{
+    font-family: maison_neuelight;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 13%;
+    padding-left:5%;
+    letter-spacing: .2px;
+}
+
+li{
+    line-height: 1.7em;
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    font-size: 13px;
+}
+
+li a:link {
+    text-decoration: none;
+    color: #686868;
+}
+li a:hover{
+    text-decoration: underline;
+    color: #686868;
+}
+li a:visited {
+    text-decoration: underline;
+    color: #686868;
+}
+
+#decordova a:hover{
+    opacity: 0.7;
+    transition: 0.3 ease;
+}
+
+nav{
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    left:50px;
+    position: relative;
+    top: 350px;
+}
+
+
+
+.wrapper2{
+    width: 100%;
+    margin: 0;
+    position: relative;
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+#decordova img{
+    widows: 80%;
+}
+
+
+/*
+.images{
+    width: 100%;
+    height: 400px;
+    align-content: center;
+    float:left;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#deco01{
+    background-image: url(images/decordovaimgs.jpg);  
+}
+#deco02{
+    background-image: url(images/decordovaimgs.jpg);
+}
+
+*/
+
+
+.images{
+    width: 60%;
+    margin: 0 auto;
+    align-content: center;
+    float:left;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.images img{
+    width: 100%;
+    margin-bottom: 1.5%;
+}
+
+.rightalign{
+     justify-content: flex-end  ;
+     display: flex;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+.halfbox figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 0;
+	cursor: pointer;
+}
+
+.halfbox figure img{
+    opacity: 1;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.halfbox figure:hover img{
+    opacity: 1;
+    transition: 0.2s;
+}
+
+
+.halfbox figcaption{
+    width: 100%;
+    height:80px;
+    z-index: 1;
+    position: absolute;
+
+}
+figure.overlap figcaption {
+	top:0;
+    opacity: 0;
+    width: 100%;
+	height: 425px;
+	background-color: rgba(125,125,125,0.6);
+	color: white;
+    line-height: 1em;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.5s;
+}
+
+
+figure.overlap:hover figcaption {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.category {
+    margin: 2.5% 17px;
+    font-size: 12.5px;
+    letter-spacing: .3px;
+    line-height: 1.6em;
+    color: #f5f5f5;
+}
+.categorynarrow {
+    margin: 5% 17px;
+    font-size: 12.5px;
+    letter-spacing: .3px;
+    line-height: 1.6em;
+    color: #f5f5f5;
+}
+
+.black {
+    color: black;
+}
+
+
+
+    
+    
