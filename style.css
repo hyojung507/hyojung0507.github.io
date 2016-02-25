@@ -233,6 +233,22 @@ li a:visited {
     color: #686868;
 }
 
+a:link {
+    text-decoration: none;
+    color: #686868;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: #686868;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #686868;
+}
+
+
 #decordova a:hover{
     opacity: 0.7;
     transition: 0.3 ease;
