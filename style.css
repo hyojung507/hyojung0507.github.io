@@ -257,6 +257,7 @@ nav{
     left:50px;
     position: relative;
     top: 350px;
+    z-index: 10000000;
 }
 
 
