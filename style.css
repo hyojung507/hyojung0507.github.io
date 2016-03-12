@@ -479,6 +479,8 @@ figure.overlap:hover figcaption {
     }
       
     .workfull {
+        position: relative;
+        overflow-x: hidden;
         width: 90%;
         margin: 5% 5%;
     }
