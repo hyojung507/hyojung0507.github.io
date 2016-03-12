@@ -12,8 +12,8 @@ body{
 .container_m{
     width: 0;
     height: 0;
-    z-index: -999;
-    opacity: 0;
+    opacity: 1;
+    
 }
 
 .back-to-top {
@@ -26,7 +26,7 @@ body{
     font-size: 12px;
     padding: 1em;
     display: none;
-    z-index: 999999;
+    z-index: 9999;
 }
 
 .back-to-top:hover {    
@@ -43,7 +43,7 @@ body{
     font-family: 'maison_neuebook';
     src: url('maisonneuebook-webfont.eot');
     src: url('maisonneuebook-webfont.eot?#iefix') format('embedded-opentype'),
-         url('maisonneuebook-webfont.woff2') format('woff2'),
+         
          url('maisonneuebook-webfont.woff') format('woff'),
          url('maisonneuebook-webfont.ttf') format('truetype'),
          url('maisonneuebook-webfont.svg#maison_neuebook') format('svg');
@@ -56,7 +56,7 @@ body{
     font-family: 'maison_neuelight';
     src: url('maisonneue-light-webfont.eot');
     src: url('maisonneue-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('maisonneue-light-webfont.woff2') format('woff2'),
+         
          url('maisonneue-light-webfont.woff') format('woff'),
          url('maisonneue-light-webfont.ttf') format('truetype'),
          url('maisonneue-light-webfont.svg#maison_neuelight') format('svg');
@@ -315,9 +315,10 @@ figure.overlap:hover figcaption {
 .black {
     color: black;
 }
-
-
-
+.workfull{
+    height: 0;
+    overflow: hidden;
+}
 
 
 
@@ -333,12 +334,12 @@ figure.overlap:hover figcaption {
          height: auto;
      }
       .container{
-      width: 0;
-    height: 0;
-    z-index: -999;
-    opacity: 0;
-          
-    }
+        width: 0;
+        height: 0;
+        z-index: -999;
+        opacity: 0;
+
+        }
     .container_m{
         
         display: block;
@@ -384,11 +385,9 @@ figure.overlap:hover figcaption {
       
     .workfull {
         position: relative;
-        overflow-x: hidden;
         width: 90%;
         height: auto;
         margin: 5% 5%;
-        clear:both;
     }
       .workfull img{
         width: 100%;
