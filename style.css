@@ -431,6 +431,7 @@ figure.overlap:hover figcaption {
   and (-webkit-min-device-pixel-ratio: 2) { 
      html, body{
          overflow-x: hidden;
+         height: auto;
      }
       .container{
       width: 0;
@@ -440,6 +441,7 @@ figure.overlap:hover figcaption {
           
     }
     .container_m{
+        
         display: block;
         position: relative;
         width: 100%;
@@ -487,6 +489,7 @@ figure.overlap:hover figcaption {
         width: 90%;
         height: auto;
         margin: 5% 5%;
+        clear:both;
     }
       .workfull img{
         width: 100%;
