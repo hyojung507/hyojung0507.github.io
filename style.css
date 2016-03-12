@@ -425,8 +425,8 @@ figure.overlap:hover figcaption {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 300px) 
+  and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
      body{
          overflow-x: hidden;
@@ -439,6 +439,7 @@ figure.overlap:hover figcaption {
           
     }
     .container_m{
+        position: relative;
         width: 100%;
         height: auto;
         z-index: 10;
@@ -470,7 +471,7 @@ figure.overlap:hover figcaption {
     .work {
         width: 90%;
         margin: 3% 5%;
-        height: 550px;
+        height: 213px;
         overflow: hidden;
     }
     .work img{
@@ -502,35 +503,6 @@ figure.overlap:hover figcaption {
         width: 55px;
 }
 
-/* ----------- iPhone 6+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-      
-  
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
 
     
     
