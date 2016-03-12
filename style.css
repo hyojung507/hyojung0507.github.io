@@ -7,6 +7,15 @@ body{
     
 }
 
+.container{
+}
+.container_m{
+    width: 0;
+    height: 0;
+    z-index: -999;
+    opacity: 0;
+}
+
 .back-to-top {
     position: fixed;
     bottom: 1em;
@@ -408,6 +417,9 @@ figure.overlap:hover figcaption {
 }
 
 
+
+
+
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
@@ -415,7 +427,7 @@ figure.overlap:hover figcaption {
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-
+  
 }
 
 /* Portrait */
@@ -469,7 +481,53 @@ figure.overlap:hover figcaption {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+      .container{
+      width: 0;
+    height: 0;
+    z-index: -999;
+    opacity: 0;
+    }
+    .container_m{
+        width: auto;
+        height: auto;
+        z-index: 10;
+        opacity: 1;
+    }
+      
+    .longbox {height: 100%;
+        width: 44%;
+        background-color: rgba(0,0,0,0.02);
+        position: fixed;
+        right: 0;
+        z-index: -99;
+    }
 
+    .box1 {height: 30%;
+        width:100%;
+        background-color: rgba(0,0,0,0.02)}
+
+    .namebox { width: 44%;
+            float: left;
+            z-index: 1;
+    }
+      
+    .navbox {width: 56%;
+        float:left;
+    }
+      
+    .work {
+        width: 90%;
+        margin: 3% 5%;
+        height: 550px;
+        overflow: hidden;
+    }
+    .work img{
+        width: 100%;
+    }
+        
+    .name { font-size: 18px;
+    }
+      
 }
 
 /* Portrait */
@@ -498,6 +556,8 @@ figure.overlap:hover figcaption {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
+      
+  
 }
 
 /* Portrait */
