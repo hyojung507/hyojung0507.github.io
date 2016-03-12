@@ -140,6 +140,9 @@ body{
     letter-spacing: .3px;
 }
 
+.bold {font-family: maison_neuebook;
+}
+
 .name{
     font-family: maison_neuelight;
     font-size: 16px;
