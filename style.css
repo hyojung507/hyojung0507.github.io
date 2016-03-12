@@ -525,9 +525,10 @@ figure.overlap:hover figcaption {
         width: 100%;
     }
         
-    .name { font-size: 18px;
+    .name { font-size: 27px;
     }
-      
+    
+      .li {font-size: 25px;
 }
 
 /* Portrait */
