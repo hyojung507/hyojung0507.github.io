@@ -466,6 +466,7 @@ figure.overlap:hover figcaption {
     }
       
     .navbox {width: 56%;
+        height: 100%;
         float:left;
     }
       
@@ -483,6 +484,7 @@ figure.overlap:hover figcaption {
         position: relative;
         overflow-x: hidden;
         width: 90%;
+        height: auto;
         margin: 5% 5%;
     }
       .workfull img{
@@ -499,11 +501,15 @@ figure.overlap:hover figcaption {
     .name {font-size: 13px;
     }
     nav{
-        left:20px;
-        top: 250px;
+        left:6%;
+        top: 85%;
     }
     li {font-size: 13px;
         width: 55px;
+    }
+      ul{
+          padding: 0;
+      }
 }
 
 
