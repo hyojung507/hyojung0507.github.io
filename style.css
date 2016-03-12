@@ -436,13 +436,14 @@ figure.overlap:hover figcaption {
     height: 0;
     z-index: -999;
     opacity: 0;
-          overflow-x: hidden;
+          
     }
     .container_m{
-        width: auto;
+        width: 100%;
         height: auto;
         z-index: 10;
         opacity: 1;
+        overflow-x: hidden;
     }
       
     .longbox {height: 100%;
