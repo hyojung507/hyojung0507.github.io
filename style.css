@@ -133,6 +133,12 @@ body{
     font-size: 14px;
     letter-spacing: .3px;
 }
+.description_long{
+    margin: 4% 0 4% 2.5%;
+    line-height: 1.9em;
+    font-size: 14px;
+    letter-spacing: .3px;
+}
 
 .name{
     font-family: maison_neuelight;
