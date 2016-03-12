@@ -454,7 +454,7 @@ figure.overlap:hover figcaption {
         z-index: -99;
     }
 
-    .box1 {height: 30%;
+    .box1 {height: 40%;
         width:100%;
         background-color: rgba(0,0,0,0.02)}
 
@@ -486,16 +486,20 @@ figure.overlap:hover figcaption {
         margin-bottom: 5%;
     }
         
-    .description {font-size:25px;
-    line-height: 35px;
-    padding-right:0;
+    .description {
+        font-size:13px;
+        line-height: 23px;
+        padding-right:0;
     }
       
-    .name {font-size: 24px;
+    .name {font-size: 13px;
     }
-    
-    li {font-size: 20px;
-        width: 75px;
+    nav{
+        left:20px;
+        top: 250px;
+    }
+    li {font-size: 13px;
+        width: 55px;
 }
 
 /* ----------- iPhone 6+ ----------- */
