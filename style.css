@@ -406,8 +406,8 @@ figure.overlap:hover figcaption {
     }
         
     .description {
-        font-size:13px;
-        line-height: 23px;
+        font-size:11px;
+        line-height: 20px;
         padding-right:0;
     }
       
@@ -418,7 +418,7 @@ figure.overlap:hover figcaption {
         left:6%;
         top: 85%;
     }
-    li {font-size: 12px;
+    li {font-size: 11px;
         width: 55px;
     }
       ul{
