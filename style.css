@@ -411,6 +411,12 @@ figure.overlap:hover figcaption {
         padding-right:0;
     }
       
+    .description_long {
+        font-size:11px;
+        line-height: 18px;
+        padding-right:0;
+    }
+      
     .name {font-size: 13px;
             font-family: maison_neuebook;
     }
