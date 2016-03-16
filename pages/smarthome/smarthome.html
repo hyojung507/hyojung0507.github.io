@@ -4,6 +4,7 @@
 <head>
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, width=device-width">
     <link rel="stylesheet" href="../../style.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
       <link rel='shortcut icon' href="favicon.ico" type='image/x-icon'/>
 </head>
 
@@ -54,6 +55,21 @@
         
         <div class="wrapper2" >
             <div class="images" id="deco01">
+            <img src="images/process2.jpg">
+            <img src="images/process3.jpg">
+            <img src="images/process4.jpg">
+            <img src="images/process5.jpg">
+            <img src="images/process6.jpg">
+            <img src="images/process7.jpg">
+            <img src="images/process8.jpg">
+            <img src="images/process9.jpg">
+            <img src="images/process10.jpg">
+            <img src="images/process11.jpg">
+            <img src="images/process12.jpg">
+            <img src="images/process13.jpg">
+            <img src="images/process14.jpg">
+            <img src="images/process15.jpg">
+            <img src="images/process16.jpg">
             <img src="images/mockup.jpg">
             <img src="images/mockup2.jpg">
             <img src="images/mockup3.jpg">
@@ -128,7 +144,29 @@
         <img src="images/blueposter.jpg">
 
     </div>
+    
+    </div>
 
+  <a href="#" class="back-to-top">Back to Top</a>
+    <script>
+        jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+    </script>
 
 
 
