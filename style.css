@@ -330,6 +330,32 @@ figure.overlap:hover figcaption {
     overflow: hidden;
 }
 
+.title {
+    padding-left: 150px;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.loginwrap {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	
+	background-color:#f5f5f5 ;
+    z-index: 9999;
+	position: fixed;
+}
+	.loginform {
+    padding-left: 150px;
+    padding-top: 50px;}
+		.loginitem {
+    height: 25px;}
+		
+	.login-submit {
+    padding-left: 150px;
+    font-family: maison_neuebook;
+    letter-spacing: 1;}
+
 
 
 /* ----------- iPhone 6 ----------- */
