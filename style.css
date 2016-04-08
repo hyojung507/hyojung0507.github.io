@@ -356,6 +356,10 @@ figure.overlap:hover figcaption {
     font-family: maison_neuebook;
     letter-spacing: 1;}
 
+    .login-submit:hover{
+    cursor: pointer;
+    }
+
 
 
 /* ----------- iPhone 6 ----------- */
