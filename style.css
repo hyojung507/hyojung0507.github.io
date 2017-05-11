@@ -391,6 +391,10 @@ figure.overlap:hover figcaption {
         opacity: 1;
         overflow-x: hidden;
     }
+    
+    .wrapper1.workspace {
+          display:none;
+      }
       
     .longbox {height: 100%;
         width: 44%;
